@@ -1,8 +1,12 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_Controller : MonoBehaviour
 {
     [SerializeField] private float maxSpeed = 7;
+    [SerializeField] private Button backButton;
+    [SerializeField] private Button forwardButton;
+
     private Animator animator;
     private Rigidbody2D rigidbody2d;
     private bool isFacingRight;
