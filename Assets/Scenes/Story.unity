@@ -157,7 +157,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 348.01, y: 50}
+  m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &380549840
 MonoBehaviour:
@@ -179,9 +179,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Az \xE9v ismeretlen, a F\xF6ld sz\xE1raz, kietlen, semmilyen n\xF6v\xE9ny
-    nem b\xEDrta ki a burkon k\xEDv\xFCli h\u0151m\xE9rs\xE9kletet, hogy mi\xE9rt
-    is volt ez?"
+  m_text: "Az \xE9v ismeretlen, a F\xF6ld sz\xE1raz, kietlen,\nSemmilyen n\xF6v\xE9ny
+    nem b\xEDrta ki a burkon k\xEDv\xFCli h\u0151m\xE9rs\xE9kletet.\nHogy mi\xE9rt
+    is volt ez? - teheti fel a k\xE9rd\xE9st."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 4
+  m_characterSpacing: 6
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -545,8 +545,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A marad\xE9k v\xEDztartal\xE9kok k\xF6r\xE9 telep\xFCltek az emberek,
-    \xEDgy hozva l\xE9tre m\xE1ra m\xE1r vir\xE1gz\xF3 v\xE1rosokat. Az Oaszisz lak\xF3
+  m_text: "A marad\xE9k v\xEDztartal\xE9kok k\xF6r\xE9 telep\xFCltek az emberek,\n\xEDgy
+    hozva l\xE9tre m\xE1ra m\xE1r vir\xE1gz\xF3 v\xE1rosokat.\nAz Oaszisz lak\xF3
     emberek h\xE1l\xE1sak lehetnek a n\xE9gy ir\xE1ny\xEDt\xF3 csal\xE1dnak, hogy
     l\xE9trehozt\xE1k."
   m_isRightToLeft: 0
@@ -585,7 +585,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 4
+  m_characterSpacing: 6
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -660,7 +660,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 318.41, y: 50}
+  m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1176749797
 MonoBehaviour:
@@ -682,8 +682,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Teheti fel a k\xE9rd\xE9st, az igazs\xE1g az, hogy ez az emberek m\u0171ve,
-    nem figyeltek a glob\xE1lis felmeleged\xE9s vesz\xE9lyeire, fel\xE9lt\xE9k tartal\xE9kaikat."
+  m_text: "Az igazs\xE1g az, hogy ez az emberek m\u0171ve,\nakik nem figyeltek a
+    glob\xE1lis felmeleged\xE9s vesz\xE9lyeire\n\xE9s fel\xE9lt\xE9k tartal\xE9kaikat."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -720,7 +720,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 4
+  m_characterSpacing: 6
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0

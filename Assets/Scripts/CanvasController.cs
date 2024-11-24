@@ -17,9 +17,7 @@ public class CanvasController : MonoBehaviour
     [SerializeField] Button ToCredits;
     [SerializeField] Button ToSelectMode;
 
-
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
         ToSettings.onClick.AddListener(() =>
         {
