@@ -9,7 +9,7 @@ public class ToLv2 : MonoBehaviour
     private void Awake()
     {
         
-        if(Proba.Lv2Done) StartCoroutine(LoadLevel("Lv3").GetEnumerator());
+        if(GameData.Lv2Done) StartCoroutine(LoadLevel("Lv3").GetEnumerator());
         else StartCoroutine(LoadLevel("Lv2").GetEnumerator());
     }
     IEnumerable LoadLevel(string sceneName)
