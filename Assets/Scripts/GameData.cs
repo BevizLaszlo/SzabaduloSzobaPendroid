@@ -6,6 +6,7 @@ public class GameData : MonoBehaviour
 {
     public static bool Lv2Done = false;
     public static bool HardMode = true;
+    public static bool Lv2KeyFound = false;
     public static float Timer = 1800;
     public static int sanity = 10;
     void Start()
