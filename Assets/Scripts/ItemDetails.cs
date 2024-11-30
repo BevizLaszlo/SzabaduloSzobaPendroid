@@ -26,11 +26,12 @@ public class ItemDetails : MonoBehaviour
     public void ExitDetailes()
     {
         Details.gameObject.SetActive(false);
+        DetailText.text = string.Empty;
         Buttons.gameObject.SetActive(true);
         if (SelfDestroy) gameObject.SetActive(false);
     }
 
-    public void InspectItem() => DetailText.text = "Valami szöveg segítségnek";
+    public void InspectItem(string text) => DetailText.text = text;
 
     public void DestroyItemBad()
     {
