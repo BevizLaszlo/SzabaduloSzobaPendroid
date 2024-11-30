@@ -5,9 +5,9 @@ using UnityEngine;
 public class GameData : MonoBehaviour
 {
     public static bool Lv2Done = false;
-    public static bool HardMode = false;
+    public static bool HardMode = true;
     public static float Timer = 1800;
-    public static float minutes = 30;
+    public static int sanity = 10;
     void Start()
     {
         
@@ -22,4 +22,6 @@ public class GameData : MonoBehaviour
     public void Lv2() => Lv2Done = true;
 
     public void HardGameMode() => HardMode = true;
+
+    public void SanityLoss() => sanity--;
 }

@@ -18,9 +18,9 @@ public class TimerScript : MonoBehaviour
         if(GameData.Timer > 0 && GameData.HardMode)
         {
             GameData.Timer -= Time.deltaTime;
+            float minutes = Mathf.Floor(GameData.Timer / 60);
             int seconds = Mathf.RoundToInt(GameData.Timer % 60);
-            if (seconds == 59) GameData.minutes -= Time.deltaTime;
-            timer.text = string.Format("{0:00}:{1:00}", GameData.minutes, seconds == 60 ? "00" : seconds);
+            timer.text = string.Format("{0:00}:{1:00}", minutes, seconds == 60 ? "00" : seconds);
         }
     }
 }
