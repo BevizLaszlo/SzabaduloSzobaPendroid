@@ -26,7 +26,7 @@ public class ItemDetails : MonoBehaviour
     public void ExitDetailes()
     {
         Details.gameObject.SetActive(false);
-        DetailText.text = string.Empty;
+        if(DetailText is not null) DetailText.text = string.Empty;
         Buttons.gameObject.SetActive(true);
         if (SelfDestroy) gameObject.SetActive(false);
     }
