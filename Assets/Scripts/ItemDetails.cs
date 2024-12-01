@@ -21,13 +21,13 @@ public class ItemDetails : MonoBehaviour
     public void ActivateDetailes()
     {
         Details.gameObject.SetActive(true);
-        Buttons.gameObject.SetActive(false);
+        if(Buttons is not null) Buttons.gameObject.SetActive(false);
     }
     public void ExitDetailes()
     {
         Details.gameObject.SetActive(false);
         if(DetailText is not null) DetailText.text = string.Empty;
-        Buttons.gameObject.SetActive(true);
+        if(Buttons is not null) Buttons.gameObject.SetActive(true);
         if (SelfDestroy) gameObject.SetActive(false);
     }
 
