@@ -2324,6 +2324,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1331619144}
+    - target: {fileID: 8026091104143601365, guid: f9c4ddf46aa00a047b8dd45c6f933722, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2570,11 +2574,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2388180939667449799, guid: 95d2bedcff0c0994b82d6933f3e6db38, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 160
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2388180939667449799, guid: 95d2bedcff0c0994b82d6933f3e6db38, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 160
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2388180939667449799, guid: 95d2bedcff0c0994b82d6933f3e6db38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2636,6 +2640,10 @@ PrefabInstance:
       propertyPath: Details
       value: 
       objectReference: {fileID: 5194360085341740169}
+    - target: {fileID: 7754054255935516520, guid: 95d2bedcff0c0994b82d6933f3e6db38, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 82b0a3b0c197939458c8569f0d131454, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
