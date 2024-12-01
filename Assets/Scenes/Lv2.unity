@@ -480,11 +480,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2388180939667449799, guid: 95d2bedcff0c0994b82d6933f3e6db38, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 160
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2388180939667449799, guid: 95d2bedcff0c0994b82d6933f3e6db38, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 160
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2388180939667449799, guid: 95d2bedcff0c0994b82d6933f3e6db38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -546,6 +546,10 @@ PrefabInstance:
       propertyPath: Details
       value: 
       objectReference: {fileID: 1232418018}
+    - target: {fileID: 7754054255935516520, guid: 95d2bedcff0c0994b82d6933f3e6db38, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 82b0a3b0c197939458c8569f0d131454, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1621,7 +1625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4903787363612824039, guid: 5a3b36ffae160d042a3777591b2d311a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: "Megmozgatod a v\xE1z\xE1t, de a belseje \xFCresnek t\u0171nik."
+      value: "Ez itt van Just4Fun, de nem t\u0171nik fontosnak."
       objectReference: {fileID: 0}
     - target: {fileID: 7000486203027198841, guid: 5a3b36ffae160d042a3777591b2d311a, type: 3}
       propertyPath: m_Pivot.x
