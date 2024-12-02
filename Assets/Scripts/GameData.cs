@@ -22,7 +22,7 @@ public class GameData : MonoBehaviour
     }
 
     public void Lv2() => Lv2Done = true;
-
+    public void NormalGameMode() => HardMode = false;
     public void HardGameMode() => HardMode = true;
 
     public void SanityLoss() => sanity--;
