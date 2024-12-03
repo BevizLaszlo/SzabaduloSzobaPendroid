@@ -1623,7 +1623,7 @@ PrefabInstance:
       objectReference: {fileID: 459908158}
     - target: {fileID: 2292525922532110446, guid: c5b4c6fea8f495249ba72ece4752bfbd, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2458334239627420283, guid: c5b4c6fea8f495249ba72ece4752bfbd, type: 3}
       propertyPath: m_Type
@@ -1708,6 +1708,10 @@ PrefabInstance:
     - target: {fileID: 3905715669124626108, guid: c5b4c6fea8f495249ba72ece4752bfbd, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071086433188097618, guid: c5b4c6fea8f495249ba72ece4752bfbd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Credits
       objectReference: {fileID: 0}
     - target: {fileID: 4494075320315921613, guid: c5b4c6fea8f495249ba72ece4752bfbd, type: 3}
       propertyPath: m_Camera
@@ -2455,6 +2459,10 @@ PrefabInstance:
     - target: {fileID: 4475079547323891629, guid: c8c053cecb450b44c83ba795bf79c939, type: 3}
       propertyPath: m_Name
       value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220470670292062674, guid: c8c053cecb450b44c83ba795bf79c939, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Credits
       objectReference: {fileID: 0}
     - target: {fileID: 6509657093665624725, guid: c8c053cecb450b44c83ba795bf79c939, type: 3}
       propertyPath: m_Pivot.x
