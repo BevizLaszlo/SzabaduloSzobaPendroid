@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameData : MonoBehaviour
 {
     public static bool Lv2Done = false;
-    public static bool HardMode = true;
+    public static bool HardMode = false;
     public static bool Lv2KeyFound = false;
     public static bool Lv3Solved = false;
     public static float Timer = 1800;

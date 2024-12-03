@@ -10,7 +10,7 @@ public class ToLv2 : MonoBehaviour
     {
         
         if(GameData.Lv2Done) StartCoroutine(LoadLevel("Lv3").GetEnumerator());
-        else StartCoroutine(LoadLevel("Lv2").GetEnumerator());
+        else StartCoroutine(LoadLevel($"Lv2({Random.Range(0, 5)})").GetEnumerator());
     }
     IEnumerable LoadLevel(string sceneName)
     {
