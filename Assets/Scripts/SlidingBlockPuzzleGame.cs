@@ -112,7 +112,7 @@ public class SlidingBlockPuzzleGame : MonoBehaviour
 
             if (IsSolved())
             {
-                youWonText.text = "Sikeresem megoldottad a feladványt. Kinyílt az ajtó.";
+                youWonText.text = "Szeretnék Gratulálni! Az akadályokat állta, a teszt végeredménye: Megfelel a beilleszkedésre! Az ajtót kinyitom!";
                 GameData.Lv3Solved = true;
             }
         }

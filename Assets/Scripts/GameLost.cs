@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -15,9 +15,8 @@ public class GameLost : MonoBehaviour
         if (GameData.sanity == 0 || GameData.Timer == 0)
         {
             LostGame.gameObject.SetActive(true);
-            LostText.text = "Alkalmatlannak �t�ltet�l, mert:\n";
-            if (GameData.Timer == 0) LostText.text += "Lej�rt az id�d!";
-            else LostText.text += "T�l sokat hib�zt�l!";
+            if (GameData.Timer == 0) LostText.text = "Állj! Az idő lejárt! Nem sikerült befejeznie a tesztet! Az ítélet dehidratáció! Megkezdés, azonnali hatállyal!";
+            else LostText.text = "Gratulálok! A teszt véget ért! Bebizonyította, hogy Ön nem lenne képes az életét tovább folytatni az Oaszisz körében. Ítélet nem más, mint dehidratáció az Oaszisz népe javára!";
         }
        
         

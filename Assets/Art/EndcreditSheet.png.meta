@@ -44,8 +44,8 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -114,7 +114,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 1512
         width: 128
         height: 72
       alignment: 0
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a32cf651e71b1c34185499b35b94b04f
-      internalID: -1720583988
+      spriteID: 5453725db9d332941958dd7775decaf5
+      internalID: -994377552
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,8 @@ TextureImporter:
       name: EndcreditSheet_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 0
+        y: 1440
         width: 128
         height: 72
       alignment: 0
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50b8745bc740ec54da4223cb53cf20a1
-      internalID: 348240401
+      spriteID: b2b5bcfd80443ad47afcd0808543b873
+      internalID: 480280308
       vertices: []
       indices: 
       edges: []
@@ -155,8 +155,8 @@ TextureImporter:
       name: EndcreditSheet_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
+        x: 0
+        y: 1368
         width: 128
         height: 72
       alignment: 0
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3823e38f8673ce44abcc9a8c588f5445
-      internalID: 654788832
+      spriteID: ef7376bf667901048b4a4da317880e14
+      internalID: 1222362025
       vertices: []
       indices: 
       edges: []
@@ -176,8 +176,8 @@ TextureImporter:
       name: EndcreditSheet_3
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
+        x: 0
+        y: 1296
         width: 128
         height: 72
       alignment: 0
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 009113e81eb87814b9d031c8b4db4fb4
-      internalID: -407259979
+      spriteID: 887ad75811f63e14da8cc3fb25483a18
+      internalID: 168309434
       vertices: []
       indices: 
       edges: []
@@ -197,8 +197,8 @@ TextureImporter:
       name: EndcreditSheet_4
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
+        x: 0
+        y: 1224
         width: 128
         height: 72
       alignment: 0
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2286ead9432ff4c4fb413d9a132165d4
-      internalID: 745418820
+      spriteID: 6e5c091482ff2c94aa9458b01268fa4d
+      internalID: -298687179
       vertices: []
       indices: 
       edges: []
@@ -218,8 +218,8 @@ TextureImporter:
       name: EndcreditSheet_5
       rect:
         serializedVersion: 2
-        x: 640
-        y: 0
+        x: 0
+        y: 1152
         width: 128
         height: 72
       alignment: 0
@@ -229,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a90202ad3a4e7149b68b31b79dc415b
-      internalID: -1822631998
+      spriteID: 496581b2de701be429da186a94c83099
+      internalID: 1365107026
       vertices: []
       indices: 
       edges: []
@@ -239,8 +239,8 @@ TextureImporter:
       name: EndcreditSheet_6
       rect:
         serializedVersion: 2
-        x: 768
-        y: 0
+        x: 0
+        y: 1080
         width: 128
         height: 72
       alignment: 0
@@ -250,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a46bd6b93c33315409eb25e7e6530405
-      internalID: -117571689
+      spriteID: 31fa992274803404b9132387318d1ed0
+      internalID: -201077892
       vertices: []
       indices: 
       edges: []
@@ -260,8 +260,8 @@ TextureImporter:
       name: EndcreditSheet_7
       rect:
         serializedVersion: 2
-        x: 896
-        y: 0
+        x: 0
+        y: 1008
         width: 128
         height: 72
       alignment: 0
@@ -271,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1363356bfd1b3fc42b54dc11c9168e54
-      internalID: -1247305484
+      spriteID: 7a42e663dea8bdf439824fea86b7f8de
+      internalID: 442233793
       vertices: []
       indices: 
       edges: []
@@ -281,8 +281,8 @@ TextureImporter:
       name: EndcreditSheet_8
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
+        x: 0
+        y: 936
         width: 128
         height: 72
       alignment: 0
@@ -292,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6ba799926eb97742a0d06f47a558bf2
-      internalID: -1361317773
+      spriteID: 4561653eb7f1a0e4092db87f1b313399
+      internalID: 288020470
       vertices: []
       indices: 
       edges: []
@@ -302,8 +302,8 @@ TextureImporter:
       name: EndcreditSheet_9
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 0
+        x: 0
+        y: 864
         width: 128
         height: 72
       alignment: 0
@@ -313,8 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffa3951ef8025614cb92bcaa2bcbe661
-      internalID: 2084632322
+      spriteID: 7148ec228182ef9419d2f887adf48396
+      internalID: -1240291948
       vertices: []
       indices: 
       edges: []
@@ -323,8 +323,8 @@ TextureImporter:
       name: EndcreditSheet_10
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 0
+        x: 0
+        y: 792
         width: 128
         height: 72
       alignment: 0
@@ -334,8 +334,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2ca3cf631b55c840a1c8e5bc91b768a
-      internalID: -1166183264
+      spriteID: 72ee1eae76944534882bef9dca1c93e3
+      internalID: -1653508040
       vertices: []
       indices: 
       edges: []
@@ -344,8 +344,8 @@ TextureImporter:
       name: EndcreditSheet_11
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 0
+        x: 0
+        y: 720
         width: 128
         height: 72
       alignment: 0
@@ -355,8 +355,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cc813979e5a42842b2a0b090615e2fc
-      internalID: 1309827201
+      spriteID: 99e46066846df3d41873f9b27393ab8a
+      internalID: 1402533823
       vertices: []
       indices: 
       edges: []
@@ -365,8 +365,8 @@ TextureImporter:
       name: EndcreditSheet_12
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 0
+        x: 0
+        y: 648
         width: 128
         height: 72
       alignment: 0
@@ -376,8 +376,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a88112c4687852e4183c5eaccef81b8f
-      internalID: -1305058339
+      spriteID: 6aa41f0e505f4fb48a527721f3c48931
+      internalID: 1921495076
       vertices: []
       indices: 
       edges: []
@@ -386,8 +386,8 @@ TextureImporter:
       name: EndcreditSheet_13
       rect:
         serializedVersion: 2
-        x: 1664
-        y: 0
+        x: 0
+        y: 576
         width: 128
         height: 72
       alignment: 0
@@ -397,8 +397,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0bdf59ccb16bd441b4d0a7157303737
-      internalID: 1675879855
+      spriteID: c7480b5d8ae2ab74b970e4b1e2f87834
+      internalID: -1886849939
       vertices: []
       indices: 
       edges: []
@@ -407,8 +407,8 @@ TextureImporter:
       name: EndcreditSheet_14
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 0
+        x: 0
+        y: 504
         width: 128
         height: 72
       alignment: 0
@@ -418,8 +418,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e293c7f0dd2ef34b85f3d83d968207d
-      internalID: 384464163
+      spriteID: 64d12df02be011146825680068a179a9
+      internalID: -1892792700
       vertices: []
       indices: 
       edges: []
@@ -428,8 +428,8 @@ TextureImporter:
       name: EndcreditSheet_15
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 0
+        x: 0
+        y: 432
         width: 128
         height: 72
       alignment: 0
@@ -439,8 +439,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57e3544016c00ee49b7759eaf577dfab
-      internalID: 1350791562
+      spriteID: 16946672ff8fca443b772cd7faf9d6a5
+      internalID: -1436804822
       vertices: []
       indices: 
       edges: []
@@ -449,8 +449,8 @@ TextureImporter:
       name: EndcreditSheet_16
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 0
+        x: 0
+        y: 360
         width: 128
         height: 72
       alignment: 0
@@ -460,8 +460,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 407ad78a0c21a2147b5b2572d0b8ba3d
-      internalID: -1119145926
+      spriteID: 2ba53711ef78eab4b8917b7a9b4877c2
+      internalID: 842898458
       vertices: []
       indices: 
       edges: []
@@ -470,8 +470,8 @@ TextureImporter:
       name: EndcreditSheet_17
       rect:
         serializedVersion: 2
-        x: 2176
-        y: 0
+        x: 0
+        y: 288
         width: 128
         height: 72
       alignment: 0
@@ -481,8 +481,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e999d600edc4a1d48911ad92fafa8ddb
-      internalID: 70738511
+      spriteID: 095da620a853bb44ebc8ab648df700f9
+      internalID: -261037468
       vertices: []
       indices: 
       edges: []
@@ -491,8 +491,8 @@ TextureImporter:
       name: EndcreditSheet_18
       rect:
         serializedVersion: 2
-        x: 2304
-        y: 0
+        x: 0
+        y: 216
         width: 128
         height: 72
       alignment: 0
@@ -502,8 +502,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c40d17235c69ac94ea257a44730f47e1
-      internalID: 645716184
+      spriteID: 33ccdd0ed2599db4fbe33d27eae0d060
+      internalID: 1927629511
       vertices: []
       indices: 
       edges: []
@@ -512,8 +512,8 @@ TextureImporter:
       name: EndcreditSheet_19
       rect:
         serializedVersion: 2
-        x: 2432
-        y: 0
+        x: 0
+        y: 144
         width: 128
         height: 72
       alignment: 0
@@ -523,8 +523,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19584ff619089c340b0a904598aa61f4
-      internalID: -1698829323
+      spriteID: 92d9b61bffa239841a7e5d1296eea8e7
+      internalID: 1574006030
       vertices: []
       indices: 
       edges: []
@@ -533,8 +533,8 @@ TextureImporter:
       name: EndcreditSheet_20
       rect:
         serializedVersion: 2
-        x: 2560
-        y: 0
+        x: 0
+        y: 72
         width: 128
         height: 72
       alignment: 0
@@ -544,8 +544,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e329f92397671214f85e3d9edc98284e
-      internalID: 554077921
+      spriteID: 14168b052a6c28842a44baa16b0ccb34
+      internalID: 2022834107
       vertices: []
       indices: 
       edges: []
@@ -554,7 +554,7 @@ TextureImporter:
       name: EndcreditSheet_21
       rect:
         serializedVersion: 2
-        x: 2688
+        x: 0
         y: 0
         width: 128
         height: 72
@@ -565,8 +565,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fefd1fa3ec034d64ca42ba04469d0ec7
-      internalID: -2086208379
+      spriteID: 5d42bba089e827b40ae37e28b7afe37e
+      internalID: 387907562
       vertices: []
       indices: 
       edges: []
@@ -582,28 +582,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      EndcreditSheet_0: -1720583988
-      EndcreditSheet_1: 348240401
-      EndcreditSheet_10: -1166183264
-      EndcreditSheet_11: 1309827201
-      EndcreditSheet_12: -1305058339
-      EndcreditSheet_13: 1675879855
-      EndcreditSheet_14: 384464163
-      EndcreditSheet_15: 1350791562
-      EndcreditSheet_16: -1119145926
-      EndcreditSheet_17: 70738511
-      EndcreditSheet_18: 645716184
-      EndcreditSheet_19: -1698829323
-      EndcreditSheet_2: 654788832
-      EndcreditSheet_20: 554077921
-      EndcreditSheet_21: -2086208379
-      EndcreditSheet_3: -407259979
-      EndcreditSheet_4: 745418820
-      EndcreditSheet_5: -1822631998
-      EndcreditSheet_6: -117571689
-      EndcreditSheet_7: -1247305484
-      EndcreditSheet_8: -1361317773
-      EndcreditSheet_9: 2084632322
+      EndcreditSheet_0: -994377552
+      EndcreditSheet_1: 480280308
+      EndcreditSheet_10: -1653508040
+      EndcreditSheet_11: 1402533823
+      EndcreditSheet_12: 1921495076
+      EndcreditSheet_13: -1886849939
+      EndcreditSheet_14: -1892792700
+      EndcreditSheet_15: -1436804822
+      EndcreditSheet_16: 842898458
+      EndcreditSheet_17: -261037468
+      EndcreditSheet_18: 1927629511
+      EndcreditSheet_19: 1574006030
+      EndcreditSheet_2: 1222362025
+      EndcreditSheet_20: 2022834107
+      EndcreditSheet_21: 387907562
+      EndcreditSheet_3: 168309434
+      EndcreditSheet_4: -298687179
+      EndcreditSheet_5: 1365107026
+      EndcreditSheet_6: -201077892
+      EndcreditSheet_7: 442233793
+      EndcreditSheet_8: 288020470
+      EndcreditSheet_9: -1240291948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
