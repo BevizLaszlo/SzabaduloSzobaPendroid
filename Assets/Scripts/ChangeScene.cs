@@ -15,19 +15,8 @@ public class ChangeScene : MonoBehaviour
     {
         //transition.SetTrigger("Start");
 
-        yield return new WaitForSeconds(28.0f);
+        yield return new WaitForSeconds(42.0f);
 
         SceneManager.LoadScene(sceneName);
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

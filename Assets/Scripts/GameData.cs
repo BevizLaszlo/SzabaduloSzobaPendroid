@@ -8,7 +8,7 @@ public class GameData : MonoBehaviour
     public static bool HardMode = true;
     public static bool Lv2KeyFound = false;
     public static bool Lv3Solved = false;
-    public static float Timer = 10;
+    public static float Timer = 1800;
     public static int sanity = 10;
     void Start()
     {
