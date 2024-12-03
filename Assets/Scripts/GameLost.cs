@@ -1,16 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameLost : MonoBehaviour
 {
     [SerializeField] Canvas LostGame;
+    [SerializeField] TextMeshProUGUI LostText;
 
     // Update is called once per frame
     void Update()
     {
-        if(GameData.sanity == 0 || GameData.Timer == 0) LostGame.gameObject.SetActive(true);
+        if (GameData.sanity == 0 || GameData.Timer == 0)
+        {
+            LostGame.gameObject.SetActive(true);
+            LostText.text = "Alkalmatlannak ítéltetél, mert:\n";
+            if (GameData.Timer == 0) LostText.text += "Lejárt az idõd!";
+            else LostText.text += "Túl sokat hibáztál!";
+        }
+       
         
     }
 
