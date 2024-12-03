@@ -22,6 +22,7 @@ public class GameLost : MonoBehaviour
             GameData.Lv2KeyFound = false;
         }
         GameData.Timer = 1800;
+        GameData.sanity = 10;
     }
 
     public void MoveToMenu()
