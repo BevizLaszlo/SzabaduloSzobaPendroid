@@ -21,6 +21,7 @@ public class TimerScript : MonoBehaviour
             float minutes = Mathf.Floor(GameData.Timer / 60);
             int seconds = Mathf.RoundToInt(GameData.Timer % 60);
             timer.text = string.Format("{0:00}:{1:00}", minutes, seconds == 60 ? "00" : seconds);
+            if(timer.text == "00:00") GameData.Timer = 0;
         }
     }
 }
