@@ -28,4 +28,12 @@ public class SceneChanger : MonoBehaviour
         // Load the scene
         SceneManager.LoadScene(sceneName);
     }*/
+
+    public void StartGame()
+    {
+        if(PlayerPrefs.HasKey("intro") && PlayerPrefs.GetInt("intro") == 0)
+            SceneManager.LoadScene("Lv1");
+        else
+            SceneManager.LoadScene("Story");
+    }
 }
