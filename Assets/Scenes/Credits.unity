@@ -637,7 +637,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<size=150%>Just4Fun\r</size>\n<size=200%>SZABADUL\xC1S
+  m_text: "\n\n\n\n\nNyert\xE9l!\n\nSiker\xFCrt visszaker\xFCln\xF6d a t\xE1rsadalomba\n\nRem\xE9lj\xFCk
+    tetszett a kis pr\xF3b\xE1nk sz\xE1modra\n\nK\xF6sz\xF6nj\xFCk, hogy v\xE9gigj\xE1tszottad!\n\n\n\n\n\n\n\n\n\n\n\n\n\n<size=150%>Just4Fun\r</size>\n<size=200%>SZABADUL\xC1S
     A NAPL\xD3 SORAIB\xD3L</size>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\ncsapattagok:\r\nBEV\xCDZ
     L\xC1SZL\xD3\r\nCSIZMADIA M\xC1RK\r\nMARCALEK M\xC1T\xC9\r\nR\xC9VAI ERIK\r\n\r\n\r\ncsapatf\u0151n\xF6k:\r\nMARCALEK
     M\xC1T\xC9\r\n\r\n\r\nanim\xE1ci\xF3:\r\nMARCALEK M\xC1T\xC9\r\n\r\n\r\nzene:\r\nMARCALEK
@@ -750,6 +751,7 @@ GameObject:
   - component: {fileID: 1343004007}
   - component: {fileID: 1343004011}
   - component: {fileID: 1343004012}
+  - component: {fileID: 1343004013}
   m_Layer: 5
   m_Name: Credtis
   m_TagString: Untagged
@@ -914,6 +916,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1343004013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343004006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d128fd6db4a0a4f999a4dee483428d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1955454482
 GameObject:
   m_ObjectHideFlags: 0
