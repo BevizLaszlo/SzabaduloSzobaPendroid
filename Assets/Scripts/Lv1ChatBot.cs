@@ -30,6 +30,8 @@ class Lv1ChatBot : MonoBehaviour
     
     private string LastOutput;
 
+    private int karomkodasCount = 0;
+    
     private int NeedToAnswerCount = 3;
 
     public static void setBookRead(string bookName)
@@ -413,6 +415,7 @@ class Lv1ChatBot : MonoBehaviour
         string input = inputField.text.Trim().ToLower();
         textField.text += $"{playerPrompt} {input}\n";
         inputField.text = "";
+        LastOutput = "";
         HandleCommand(input);
     }
 
@@ -438,8 +441,10 @@ class Lv1ChatBot : MonoBehaviour
             }
         }
 
-        if (Profanities.Any(p => Regex.IsMatch(normalizedInput, CreatePattern(p), RegexOptions.IgnoreCase))) 
-        { 
+        if (Profanities.Any(p => Regex.IsMatch(normalizedInput, CreatePattern(p), RegexOptions.IgnoreCase)))
+        {
+            var inputszavak = normalizedInput.Split(' ');
+            karomkodasCount = inputszavak.Count(w => Profanities.Contains(RemoveAccents(w).ToLower()));
             HandleProfanity(); 
             return true;
         }
@@ -498,7 +503,9 @@ class Lv1ChatBot : MonoBehaviour
     private void HandleProfanity()
     {
         WriteToTextField($"{aiName}: A szavaiddal a sötétséget szítod. Vigyázz, mert a szabadulószoba mesterének türelme véges.");
-        GameData.sanity--;
+        Debug.Log(karomkodasCount);
+        GameData.sanity -= karomkodasCount;
+        karomkodasCount = 0;
     }
 
     private void ToggleDebugMode()
