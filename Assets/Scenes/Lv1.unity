@@ -6965,6 +6965,7 @@ GameObject:
   - component: {fileID: 2460083159519927016}
   - component: {fileID: 3702568096904593351}
   - component: {fileID: 2860714061557294579}
+  - component: {fileID: 8647064843499346365}
   m_Layer: 0
   m_Name: DetailText
   m_TagString: Untagged
@@ -6972,6 +6973,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8647064843499346365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8647064843499346364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
 --- !u!222 &8669495806528504779
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6993,6 +7008,7 @@ GameObject:
   - component: {fileID: 7462715647371482697}
   - component: {fileID: 3812445729670867313}
   - component: {fileID: 4236848987074557651}
+  - component: {fileID: 8738477120622453216}
   m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
@@ -7000,6 +7016,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8738477120622453216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8738477120622453215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
 --- !u!114 &8805874413211630797
 MonoBehaviour:
   m_ObjectHideFlags: 0
