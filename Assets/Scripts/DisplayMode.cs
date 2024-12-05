@@ -48,7 +48,7 @@ public class DisplayMode : MonoBehaviour
             HardButton.GetComponent<Image>().color = new Color(0, 0, 0, 0);
             HardButton.GetComponentInChildren<TextMeshProUGUI>().color = new Color(226 / 255f, 226 / 255f, 226 / 255f);
 
-            ModeDesc.text = "Normál módban korlátlan idővel rendelkezik.";
+            ModeDesc.text = "Normál módban korlátlan idővel rendelkezel.";
         }
     }
 }

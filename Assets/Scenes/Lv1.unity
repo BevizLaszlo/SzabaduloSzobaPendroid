@@ -1667,7 +1667,7 @@ PrefabInstance:
         az embert ugyan\xFAgy nem hagyja \xE9lni, ahogy meghalni sem. Nem m\xE1sr\xF3l
         van sz\xF3, mint Gruhklor\xF3l van sz\xF3 \xE9s az \u0151 egyetlen szerelm\xE9r\u0151l,
         Wertr\u0151l. A s\xF6t\xE9t id\u0151k k\xF6zepette Bregropp v\xE1rosa el\xE9g
-        vesz\xE9lyes helly\xE9 bizonyult az emberek sz\xE1m\xE1ra. T\xF6bb milli\xF3s
+        vesz\xE9lyes hellynek bizonyult az emberek sz\xE1m\xE1ra. T\xF6bb milli\xF3s
         n\xE9pess\xE9ge miatt a b\u0171n\xF6z\xE9s is el\xE9g gyakori volt. Gruhklo
         is egy ilyen sz\xF6rny\u0171 baleset \xE1ldozata lett bar\xE1tn\u0151j\xE9vel
         egy\xFCtt. Egy f\xE9lresiker\xFClt rabl\xE1st k\xF6vet\u0151en mindkettej\xFCk
@@ -2365,11 +2365,11 @@ PrefabInstance:
         id\u0151kben. \xC9s megt\xF6rt\xE9nt a csoda! Egy s\xF6t\xE9t, hideg \xE9jszak\xE1n.
         \n(...)\nR\xE1tal\xE1ltak! Egy alig nyolc \xE9ves kisfi\xFA test\xE9be volt
         z\xE1rva a Hold erej\xE9b\u0151l fel\xE9p\xEDtett er\u0151. A kir\xE1lyn\u0151
-        nagyon \xF6r\xFClt, kez\xE9be z\xE1rta \xE9s a kir\xE1llyal egy\xFCtt mentek
+        nagyon \xF6r\xFClt, kez\xE9be z\xE1rta, \xE9s a kir\xE1llyal egy\xFCtt mentek
         vissza a v\xE1r falai k\xF6z\xE9. \n(...)\nNagyon j\xF3l kij\xF6tt az ottani
         szem\xE9lyzettel, m\xE9g annyi id\u0151 eltelt\xE9vel is. Tudta, hogy neki
         ott a helye, de nem \xE9rtette, hisz a kir\xE1lyi palota pomp\xE1s volt,
-        nyoma sem volt.(...)\n"
+        nyoma sem volt (...)\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9220636735978757007, guid: 860fe9d1ea3cc104a9672d1cce354f87, type: 3}
       propertyPath: m_Name
@@ -5919,25 +5919,25 @@ PrefabInstance:
       value: "<color #DDE705>Qwadty - Az Arany Meny\xE9t</color>\n\nAzt hiszem, hogy
         m\xE1r mindenki hallotta az arany meny\xE9t legend\xE1j\xE1t, sz\xF3val most
         nem fogok \xFAjat mondani! Az a kis, p\xE1r ujj hossz\xFA, f\u0151k\xE9nt
-        aranyb\xF3l \xE9s s\xE1rga dr\xE1gak\xF6vekb\u0151l \xE1ll\xF3 d\xEDsz, a
+        aranyb\xF3l \xE9s s\xE1rga dr\xE1gak\xF6vekb\u0151l \xE1ll\xF3 d\xEDsz. A
         meny\xE9t nevet a jellegzetes alakj\xE1r\xF3l kapta. S\xFAlya t\xF6bb kilogramm
         lehet, hisz t\xE9nyleg nem hamis\xEDtv\xE1ny! A breggropi sz\xF3besz\xE9d
         sokat besz\xE9l err\u0151l a rejt\xE9lyes t\xE1rgyr\xF3l! Nem vit\xE1s, hogy
         mindenki meg akarja ezt szerezni! N\xE9zz\xFCk, hogy ki is az, aki most pr\xF3b\xE1lja
-        meg megkaparintani eme becses t\xE1rgyat! Nem m\xE1s, mint a h\xEDres neves
-        enyveskez\u0171, de m\xE9g ann\xE1l j\xF3k\xE9p\u0171bb Feiht! \u0150 volt
-        az, aki elrabolta a rubint tatut nem m\xE1st\xF3l, mint Zuikoppy kir\xE1ly
-        udvar\xE1b\xF3l! \xDAgy, hogy nem is vett\xE9k \xE9szre a cselt. Nem csoda,
-        hogy nem tervezi felhagyni ezt az \xE9letet, s\u0151t! Az \xFAj cs\xEDntev\xE9s\xE9re
-        nem is kellett oly sokat v\xE1rni! \xDAgy \xFCgyk\xF6d\xF6tt, mint egy szakra,
+        megkaparintani eme becses t\xE1rgyat! Nem m\xE1s, mint a h\xEDres neves enyveskez\u0171,
+        de m\xE9g ann\xE1l j\xF3k\xE9p\u0171bb Feiht! \u0150 volt az, aki elrabolta
+        a rubint tatut nem m\xE1st\xF3l, mint Zuikoppy kir\xE1ly udvar\xE1b\xF3l!
+        \xDAgy, hogy nem is vett\xE9k \xE9szre a cselt. Nem csoda, hogy nem tervezi
+        felhagyni ezt az \xE9letet, s\u0151t! Az \xFAj cs\xEDntev\xE9s\xE9re nem
+        is kellett oly sokat v\xE1rni! \xDAgy \xFCgyk\xF6d\xF6tt, mint egy szarka,
         m\xE1r v\xE1rta, hogy mikor is csaphat le arra a f\xE9nyes, dr\xE1ga \xE9kszerre!\r\nA
         szek\xE9ren \xFClve m\xE1r kezdett is \xF6ssze\xE1llni a terv, hogy vajon
-        hogyan is fogja kirabolni, a l\u0151 pr\xFCszk\xF6lt, a kocsis felmordult.
+        hogyan is fogja kirabolni. A l\u0151 pr\xFCszk\xF6lt, a kocsis felmordult.
         A v\xE1ros zaja semmi m\xE1shoz nem volt foghat\xF3, de Feiht pont \xEDgy
         szerette! Amint a Fergtez utc\xE1n\xE1l z\xF6ty\xF6g\xF6tt el a lovaskocsi
         m\xE1r le is ugrott annak h\xE1tulj\xE1r\xF3l. A por, mint k\xF6dfelh\u0151
         lepte el a j\xF3k\xE9p\u0171 tolvajt \xE9s a k\xF6r\xFCl\xF6tte kicsit t\xF6bb
-        mint k\xE9t l\xE9p\u0151st l\xE9v\u0151 t\xE1vot. Persze, a k\xFClseje sem
+        mint k\xE9t l\xE9p\xE9st l\xE9v\u0151 t\xE1vot. Persze, a k\xFClseje sem
         volt utols\xF3 a n\u0151i sz\xEDvek \xE9s \xE9rt\xE9kek elrabl\xF3j\xE1nak,
         \xEDgy amint ki\xE9rt a porfelh\u0151b\u0151l m\xE1r le is porolta mag\xE1t.
         A csend\u0151r\xF6k mellett elsuhanva ment be a k\xF6zeli ismert k\xF6z\xF6ss\xE9gi

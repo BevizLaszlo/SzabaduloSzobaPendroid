@@ -35,13 +35,15 @@ public class ItemDetails : MonoBehaviour
 
     public void DestroyItemBad()
     {
+        if (SelfDestroy) return;
         Destroyed();
         DetailText.text = "Tönkretetted a tárgyat, ezért pontot vesztettél";
-        GameData.sanity--;
+        GameData.sanity-=2;
     }
 
     public void DestroyItemGood()
     {
+        if (SelfDestroy) return;
         Destroyed();
         DetailText.text = "Megtaláltad a kulcsot";
         GameData.Lv2KeyFound = true;
