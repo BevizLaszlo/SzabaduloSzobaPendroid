@@ -17,6 +17,7 @@ class Lv1ChatBot : MonoBehaviour
     
     [SerializeField] private TMP_Text textField;
     [SerializeField] private TMP_InputField inputField;
+    [SerializeField] private GameObject doorLock;
     public Dictionary<string, (string CorrectAnswer, string[] AnswerChoices, string Hint, string Book)> Questions { get; set; }
     public Dictionary<string[], Action> CommandHandlers { get; set; }
     public List<string> HelpResponses { get; set; }
@@ -28,6 +29,8 @@ class Lv1ChatBot : MonoBehaviour
     public List<string> Profanities { get; set; }
     
     private string LastOutput;
+
+    private int NeedToAnswerCount = 3;
 
     public static void setBookRead(string bookName)
     {
@@ -355,17 +358,23 @@ class Lv1ChatBot : MonoBehaviour
             { "helló", "Helló. Lépj be, ha mersz." },
             { "üdv", "Üdvözlet. A sötétség már vár rád." }
         };
-        
-        System.Random rand = new System.Random();
-        var questionEntry = Questions.ElementAt(rand.Next(Questions.Count));
-        CurrentQuestion = (questionEntry.Key, questionEntry.Value.CorrectAnswer, questionEntry.Value.AnswerChoices, questionEntry.Value.Hint, questionEntry.Value.Book);
-        CurrentQuestionAnswer = questionEntry.Value.CorrectAnswer;
+        SelectNewQuestion();
     }
 
     public void OnEnable()
     {
         DebugMode = false;
         AskQuestion();
+    }
+
+    private void SelectNewQuestion()
+    {
+        if (CurrentQuestion.Question != null)
+            Questions.Remove(CurrentQuestion.Question);
+        System.Random rand = new System.Random();
+        var questionEntry = Questions.ElementAt(rand.Next(Questions.Count));
+        CurrentQuestion = (questionEntry.Key, questionEntry.Value.CorrectAnswer, questionEntry.Value.AnswerChoices, questionEntry.Value.Hint, questionEntry.Value.Book);
+        CurrentQuestionAnswer = questionEntry.Value.CorrectAnswer;
     }
     
     public void WriteToTextField(string text)
@@ -403,6 +412,7 @@ class Lv1ChatBot : MonoBehaviour
     {
         string input = inputField.text.Trim().ToLower();
         textField.text += $"{playerPrompt} {input}\n";
+        inputField.text = "";
         HandleCommand(input);
     }
 
@@ -436,11 +446,25 @@ class Lv1ChatBot : MonoBehaviour
 
         if (normalizedInput == RemoveAccents(CurrentQuestionAnswer.ToLower()))
         {
-            WriteToTextField($"{aiName}: Helyes. De ne hidd, hogy megúszod ennyivel.");
-            return true;
+            if (NeedToAnswerCount > 0)
+            {
+                WriteToTextField($"{aiName}: Helyes. De ne hidd, hogy megúszod ennyivel.");
+                NeedToAnswerCount--;
+                SelectNewQuestion();
+                AskQuestion();
+                return true;
+            }
+            else
+            {
+                WriteToTextField($"{aiName}: Helyes. Úgy érzed, mintha egy zár kattant volna.");   
+                doorLock.gameObject.SetActive(false);
+                return true;
+            }
+            
         }
 
         WriteToTextField($"{aiName}: Tévedtél. Egy lépéssel közelebb kerültél a sötétséghez.");
+        GameData.sanity--;
         return false;
     }
 
@@ -494,7 +518,17 @@ class Lv1ChatBot : MonoBehaviour
 
     private string CreatePattern(string input)
     {
-        string pattern = Regex.Replace(input, "[éáíóöőúüű]", "[eaiououu]");
-        return pattern;
+        string pattern = input
+            .Replace("á", "a")
+            .Replace("é", "e")
+            .Replace("í", "i")
+            .Replace("ó", "o")
+            .Replace("ö", "o")
+            .Replace("ő", "o")
+            .Replace("ú", "u")
+            .Replace("ü", "u")
+            .Replace("ű", "u");
+        return $"^{pattern}$";
     }
+
 }

@@ -224,6 +224,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6509657093665624725, guid: c8c053cecb450b44c83ba795bf79c939, type: 3}
   m_PrefabInstance: {fileID: 159045163}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &162629960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6978049123680120701, guid: c8c053cecb450b44c83ba795bf79c939, type: 3}
+  m_PrefabInstance: {fileID: 159045163}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &350477301
 GameObject:
   m_ObjectHideFlags: 0
@@ -7091,6 +7096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textField: {fileID: 2860714061557294579}
   inputField: {fileID: 1755116338}
+  doorLock: {fileID: 162629960}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
