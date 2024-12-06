@@ -38,6 +38,8 @@ class Lv1ChatBot : MonoBehaviour
         if (!ReadBooks.Contains(bookName))
             ReadBooks.Add(bookName);
     }
+
+    private string normalizedInput;
     
     public void Awake()
     {
@@ -420,7 +422,7 @@ class Lv1ChatBot : MonoBehaviour
 
     private bool HandleCommand(string input)
     {
-        string normalizedInput = RemoveAccents(input);
+        normalizedInput = RemoveAccents(input);
 
         foreach (var command in CommandHandlers)
         {
@@ -438,14 +440,6 @@ class Lv1ChatBot : MonoBehaviour
                 WriteToTextField($"{aiName}: {greeting.Value}");
                 return true;
             }
-        }
-
-        if (Profanities.Any(p => Regex.IsMatch(normalizedInput, CreatePattern(p), RegexOptions.IgnoreCase)))
-        {
-            var inputszavak = normalizedInput.Split(' ');
-            karomkodasCount = inputszavak.Count(w => Profanities.Contains(RemoveAccents(w).ToLower()));
-            HandleProfanity(); 
-            return true;
         }
 
         if (normalizedInput == RemoveAccents(CurrentQuestionAnswer.ToLower()))
@@ -501,6 +495,16 @@ class Lv1ChatBot : MonoBehaviour
 
     private void HandleProfanity()
     {
+        
+        var inputszavak = normalizedInput
+            .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+            .Select(word => RemoveAccents(word.ToLower()));
+
+        var normalizedProfanities = Profanities
+            .Select(word => RemoveAccents(word.ToLower()))
+            .ToList();
+
+        karomkodasCount = inputszavak.Count(w => normalizedProfanities.Contains(w));
         WriteToTextField($"{aiName}: A szavaiddal a sötétséget szítod. Vigyázz, mert a szabadulószoba mesterének türelme véges.");
         Debug.Log(karomkodasCount);
         GameData.sanity -= karomkodasCount;
@@ -534,7 +538,7 @@ class Lv1ChatBot : MonoBehaviour
             .Replace("ú", "u")
             .Replace("ü", "u")
             .Replace("ű", "u");
-        return $"^{pattern}$";
+        return $"{pattern}";
     }
 
 }
