@@ -456,6 +456,7 @@ class Lv1ChatBot : MonoBehaviour
             {
                 WriteToTextField($"{aiName}: Helyes. Úgy érzed, mintha egy zár kattant volna.");   
                 doorLock.gameObject.SetActive(false);
+                ReadBooks.Clear();
                 return true;
             }
             
