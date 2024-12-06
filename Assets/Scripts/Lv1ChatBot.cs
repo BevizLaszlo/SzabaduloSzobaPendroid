@@ -6,7 +6,6 @@ using System.Text;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 class Lv1ChatBot : MonoBehaviour
 {
