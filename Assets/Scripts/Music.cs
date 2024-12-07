@@ -11,6 +11,8 @@ public class Music : MonoBehaviour
             Destroy(this.gameObject);
         }
         DontDestroyOnLoad(this.gameObject);
-        AudioListener.volume = PlayerPrefs.GetFloat("musicVolume");
+        if (!PlayerPrefs.HasKey("musicVolume"))
+            AudioListener.volume = .5f;
+        else AudioListener.volume = PlayerPrefs.GetFloat("musicVolume");
     }
 }
