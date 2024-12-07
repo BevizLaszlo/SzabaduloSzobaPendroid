@@ -7,12 +7,15 @@ public class DisplayMode : MonoBehaviour
     [SerializeField] private Button NormalButton;
     [SerializeField] private Button HardButton;
     [SerializeField] private TextMeshProUGUI ModeDesc;
+    [SerializeField] private GameObject PlayerImage;
+    private Animator Animator;
 
     private bool isHardMode;
 
     private void Start()
     {
         isHardMode = GameData.HardMode;
+        Animator = PlayerImage.GetComponent<Animator>();
         RenderMode();
     }
 
@@ -36,6 +39,8 @@ public class DisplayMode : MonoBehaviour
             NormalButton.GetComponentInChildren<TextMeshProUGUI>().color = new Color(226 / 255f, 226 / 255f, 226 / 255f);
 
             ModeDesc.text = $"Nehéz módban 30 perces időkorlát van.";
+            Animator.SetBool("hardMode", true);
+
         }
         else
         {
@@ -46,6 +51,7 @@ public class DisplayMode : MonoBehaviour
             HardButton.GetComponentInChildren<TextMeshProUGUI>().color = new Color(226 / 255f, 226 / 255f, 226 / 255f);
 
             ModeDesc.text = "Normál módban korlátlan idővel rendelkezel.";
+            Animator.SetBool("hardMode", false);
         }
     }
 }
