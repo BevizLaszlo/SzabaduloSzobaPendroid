@@ -10,7 +10,7 @@ public class GameLost : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameData.sanity == 0 || GameData.Timer == 0)
+        if (GameData.sanity <= 0 || GameData.Timer == 0)
         {
             LostGame.gameObject.SetActive(true);
             if (GameData.Timer == 0) LostText.text = "Állj! Az idő lejárt! Nem sikerült befejeznie a tesztet! Az ítélet dehidratáció! Megkezdés, azonnali hatállyal!";
