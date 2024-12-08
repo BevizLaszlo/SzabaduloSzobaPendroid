@@ -5380,28 +5380,18 @@ PrefabInstance:
         mindenki meg akarja ezt szerezni! N\xE9zz\xFCk, hogy ki is az, aki most pr\xF3b\xE1lja
         megkaparintani eme becses t\xE1rgyat! Nem m\xE1s, mint a h\xEDres neves enyveskez\u0171,
         de m\xE9g ann\xE1l j\xF3k\xE9p\u0171bb Feiht! \u0150 volt az, aki elrabolta
-        a rubint tatut nem m\xE1st\xF3l, mint Zuikoppy kir\xE1ly udvar\xE1b\xF3l!
+        a rubin tatut nem m\xE1shonnan, mint Zuikoppy kir\xE1ly udvar\xE1b\xF3l!
         \xDAgy, hogy nem is vett\xE9k \xE9szre a cselt. Nem csoda, hogy nem tervezi
         felhagyni ezt az \xE9letet, s\u0151t! Az \xFAj cs\xEDntev\xE9s\xE9re nem
-        is kellett oly sokat v\xE1rni! \xDAgy \xFCgyk\xF6d\xF6tt, mint egy szarka,
-        m\xE1r v\xE1rta, hogy mikor is csaphat le arra a f\xE9nyes, dr\xE1ga \xE9kszerre!\r\nA
-        szek\xE9ren \xFClve m\xE1r kezdett is \xF6ssze\xE1llni a terv, hogy vajon
-        hogyan is fogja kirabolni. A l\u0151 pr\xFCszk\xF6lt, a kocsis felmordult.
-        A v\xE1ros zaja semmi m\xE1shoz nem volt foghat\xF3, de Feiht pont \xEDgy
-        szerette! Amint a Fergtez utc\xE1n\xE1l z\xF6ty\xF6g\xF6tt el a lovaskocsi
-        m\xE1r le is ugrott annak h\xE1tulj\xE1r\xF3l. A por, mint k\xF6dfelh\u0151
-        lepte el a j\xF3k\xE9p\u0171 tolvajt \xE9s a k\xF6r\xFCl\xF6tte kicsit t\xF6bb
-        mint k\xE9t l\xE9p\xE9st l\xE9v\u0151 t\xE1vot. Persze, a k\xFClseje sem
-        volt utols\xF3 a n\u0151i sz\xEDvek \xE9s \xE9rt\xE9kek elrabl\xF3j\xE1nak,
-        \xEDgy amint ki\xE9rt a porfelh\u0151b\u0151l m\xE1r le is porolta mag\xE1t.
-        A csend\u0151r\xF6k mellett elsuhanva ment be a k\xF6zeli ismert k\xF6z\xF6ss\xE9gi
-        helyre, a kocsm\xE1ba, Briktuh Kocsm\xE1j\xE1ba.\r\nTudni illik, hogy Feith
-        nem csak s\xE1rmos volt, de ravasz is, mint a r\xF3ka, mondjuk n\xE9ha a
-        haja is \xFAgy \xE1llt, hogy egy r\xF3k\xE1ra eml\xE9keztethette \xE1rny\xE9ka
-        azokat, akik l\xE1tni v\xE9lt\xE9k. A kocsm\xE1ban le\xFClt term\xE9szetesen
-        egy s\xF6rt k\xE9rt, mi m\xE1st. Szeg\xE9ny p\xE1ra nem volt tehet\u0151s,
-        de ez a j\xF3 sz\xEDv\xE9nek hib\xE1ja volt, hisz a bej\xF6tt p\xE9nzt nem
-        mag\xE1nak rakta el, hanem megseg\xEDtette azokat, akiket meg kellett.\r\n"
+        is kellett oly sokat v\xE1rni!\nA csend\u0151r\xF6k mellett elsuhanva ment
+        be a k\xF6zeli ismert k\xF6z\xF6ss\xE9gi helyre, a kocsm\xE1ba, Briktuh Kocsm\xE1j\xE1ba.\r\nTudni
+        illik, hogy Feith nem csak s\xE1rmos volt, de ravasz is, mint a r\xF3ka,
+        mondjuk n\xE9ha a haja is \xFAgy \xE1llt, hogy egy r\xF3k\xE1ra eml\xE9keztethette
+        \xE1rny\xE9ka azokat, akik l\xE1tni v\xE9lt\xE9k. A kocsm\xE1ban le\xFClt
+        term\xE9szetesen egy s\xF6rt k\xE9rt, mi m\xE1st. Szeg\xE9ny p\xE1ra nem
+        volt tehet\u0151s, de ez a j\xF3 sz\xEDv\xE9nek hib\xE1ja volt, hisz a bej\xF6tt
+        p\xE9nzt nem mag\xE1nak rakta el, hanem megseg\xEDtette azokat, akiket meg
+        kellett.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 8601981332469422305, guid: 860fe9d1ea3cc104a9672d1cce354f87, type: 3}
       propertyPath: m_fontColor.b
