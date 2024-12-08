@@ -208,7 +208,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43.55
+  m_fontSize: 70
   m_fontSizeBase: 58
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -600,8 +600,8 @@ MonoBehaviour:
   m_text: "\xDCdv\xF6zl\xF6m! \xD6nt elkapt\xE1k lop\xE1s k\xF6zben! A Tyrty M\xFAzeum
     jelentette ezt a tettet, a kir\xE1ly pedig ezt \xE1rul\xE1snak min\u0151s\xEDti.
     V\xE9gezze el a szob\xE1kban kiadott feladatokat \xE9s \u0151rizze meg az alkalmaz\xE1si
-    szintj\xE9t - amit bele\xFCltett\xFCnk a retin\xE1j\xE1ba, jobb als\xF3 sarokban
-    l\xE1thatja- \xE9s akkor visszat\xE9rhet civil \xE9let\xE9be, kegyelmet kapva!"
+    szintj\xE9t - amit bele\xFCltett\xFCnk a retin\xE1j\xE1nak jobb als\xF3 sark\xE1ba-
+    \xE9s akkor visszat\xE9rhet civil \xE9let\xE9be, kegyelmet kapva!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0558607dd00d2894bad3264fb751ec03, type: 2}
   m_sharedMaterial: {fileID: 471849723291169303, guid: 0558607dd00d2894bad3264fb751ec03, type: 2}
@@ -736,7 +736,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "A marad\xE9k v\xEDztartal\xE9kok k\xF6r\xE9 telep\xFCltek az emberek,\n\xEDgy
-    hozva l\xE9tre m\xE1ra m\xE1r vir\xE1gz\xF3 v\xE1rosokat.\nAz Oaszisz lak\xF3
+    hozva l\xE9tre m\xE1ra m\xE1r vir\xE1gz\xF3 v\xE1rosokat.\nAz Oasziszban lak\xF3
     emberek h\xE1l\xE1sak lehetnek a n\xE9gy ir\xE1ny\xEDt\xF3 csal\xE1dnak, hogy
     l\xE9trehozt\xE1k."
   m_isRightToLeft: 0
@@ -873,7 +873,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Az igazs\xE1g az, hogy ez az emberek m\u0171ve,\nakik nem figyeltek a
-    glob\xE1lis felmeleged\xE9s vesz\xE9lyeire\n\xE9s fel\xE9lt\xE9k tartal\xE9kaikat."
+    glob\xE1lis felmeleged\xE9s vesz\xE9lyeire,\n\xE9s fel\xE9lt\xE9k tartal\xE9kaikat."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0558607dd00d2894bad3264fb751ec03, type: 2}
   m_sharedMaterial: {fileID: 471849723291169303, guid: 0558607dd00d2894bad3264fb751ec03, type: 2}
