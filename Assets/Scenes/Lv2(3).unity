@@ -158,7 +158,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -450, y: 140}
-  m_SizeDelta: {x: 280, y: 560}
+  m_SizeDelta: {x: 280, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &13573623
 MonoBehaviour:
@@ -248,7 +248,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 140}
-  m_SizeDelta: {x: 280, y: 280}
+  m_SizeDelta: {x: 280, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &131253152
 MonoBehaviour:
@@ -1096,7 +1096,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 140}
-  m_SizeDelta: {x: 400, y: 0}
+  m_SizeDelta: {x: 400, y: 400}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &882383841
 MonoBehaviour:
@@ -1525,7 +1525,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -480, y: 140}
-  m_SizeDelta: {x: 280, y: 0}
+  m_SizeDelta: {x: 280, y: 560}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1270001702
 MonoBehaviour:
@@ -2381,9 +2381,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4903787363612824039, guid: 5a3b36ffae160d042a3777591b2d311a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: "Az els\u0151 ember a vil\xE1g cs\xFAcs\xE1n - Bmilc Poiuz (1926). Megforgatta
-        a k\xE9pet, de nem tal\xE1lt semmit, csak egy \xE1tlagos r\xE9gi festm\xE9ny
-        d\xEDszes kerettel."
+      value: "T\xE9rk\xE9p az 1100-as \xE9vekb\u0151l - Feltehet\u0151en kalandor
+        t\xE9rk\xE9p volt a Tryxwe-i kir\xE1lys\xE1gr\xF3l. Megforgatta a k\xE9pet,
+        de nem tal\xE1lt semmit."
       objectReference: {fileID: 0}
     - target: {fileID: 7000486203027198841, guid: 5a3b36ffae160d042a3777591b2d311a, type: 3}
       propertyPath: m_Pivot.x
@@ -2468,7 +2468,7 @@ PrefabInstance:
     - target: {fileID: 8805874413593861030, guid: 5a3b36ffae160d042a3777591b2d311a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: cf61a4f79dbccb0438775feefe14c428, type: 3}
+      objectReference: {fileID: 21300000, guid: 4f08ce9dd0cbb7a419d01297d83ece32, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2617,7 +2617,7 @@ PrefabInstance:
     - target: {fileID: 8721011944503984324, guid: 959bbcc2e1378194dbbc894d522946c4, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: cf61a4f79dbccb0438775feefe14c428, type: 3}
+      objectReference: {fileID: 21300000, guid: 4f08ce9dd0cbb7a419d01297d83ece32, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3142,7 +3142,7 @@ PrefabInstance:
       objectReference: {fileID: 455609130}
     - target: {fileID: 6014533580879249776, guid: c5b4c6fea8f495249ba72ece4752bfbd, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6262065342153262801, guid: c5b4c6fea8f495249ba72ece4752bfbd, type: 3}
       propertyPath: m_Name
@@ -3286,7 +3286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9144656813429538831, guid: c5b4c6fea8f495249ba72ece4752bfbd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
