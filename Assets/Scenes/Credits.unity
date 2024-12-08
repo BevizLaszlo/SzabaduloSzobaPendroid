@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 500}
+  m_AnchoredPosition: {x: 0, y: 96}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &135024576
@@ -505,8 +505,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 780.00006, y: -360}
-  m_SizeDelta: {x: 1560.0001, y: 0}
+  m_AnchoredPosition: {x: 1140, y: -540}
+  m_SizeDelta: {x: 2280, y: 1282.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &881500198
 MonoBehaviour:
@@ -795,7 +795,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -100, y: 5569.58}
+  m_SizeDelta: {x: -100, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1321799400
 MonoBehaviour:
@@ -817,16 +817,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\n\n\n\nNyert\xE9l!\n\nSiker\xFCrt visszaker\xFCln\xF6d a t\xE1rsadalomba\n\nRem\xE9lj\xFCk
-    tetszett a kis pr\xF3b\xE1nk sz\xE1modra\n\nK\xF6sz\xF6nj\xFCk, hogy v\xE9gigj\xE1tszottad!\n\n\n\n\n\n\n\n\n\n\n\n\n\n<size=150%>Just4Fun\r</size>\n<size=200%>SZABADUL\xC1S
-    A NAPL\xD3 SORAIB\xD3L</size>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\ncsapattagok:\r\nBEV\xCDZ
+  m_text: "\n\n\n\nNyert\xE9l!\n\nSiker\xFCrt visszaker\xFCln\xF6d a t\xE1rsadalomba\n\nRem\xE9lj\xFCk
+    tetszett a kis pr\xF3b\xE1nk sz\xE1modra\n\nK\xF6sz\xF6nj\xFCk, hogy v\xE9gigj\xE1tszottad!\n\n\n\n\n\n\n\n\n\n\n<size=150%>Just4Fun\r</size>\n<size=200%>SZABADUL\xC1S
+    A NAPL\xD3 SORAIB\xD3L</size>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\ncsapattagok:\r\nBEV\xCDZ
     L\xC1SZL\xD3\r\nCSIZMADIA M\xC1RK\r\nMARCALEK M\xC1T\xC9\r\nR\xC9VAI ERIK\r\n\r\n\r\ncsapatf\u0151n\xF6k:\r\nMARCALEK
     M\xC1T\xC9\r\n\r\n\r\nanim\xE1ci\xF3:\r\nMARCALEK M\xC1T\xC9\r\n\r\n\r\nzene:\r\nMARCALEK
     M\xC1T\xC9\r\n\r\n\r\ngrafikai elemek:\r\nR\xC9VAI ERIK\r\n\r\n\r\nt\xF6rt\xE9net:\r\nR\xC9VAI
-    ERIK\r\n\r\n\r\nmesters\xE9ges intelligencia:\r\nCSIZMADIA M\xC1RK\r\n\r\n\r\nfelhaszn\xE1l\xF3i
-    fel\xFClet:\r\nBEV\xCDZ L\xC1SZL\xD3\r\n\r\n\r\nfelhaszn\xE1l\xF3i \xE9lm\xE9ny:\r\nBEV\xCDZ
-    L\xC1SZL\xD3\r\n\r\n\r\n\r\n\r\n\r\nK\xE9sz\xFClt a PANNON EGYETEM\r\nPENDROID
-    2023/24-es versenyki\xEDr\xE1s\xE1nak\r\n2. fordul\xF3j\xE1ra\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    ERIK\r\nA t\xF6rt\xE9net folytat\xE1sa  wattpadon!\r\nProfil: Erikwrites\n\r\n\r\nmesters\xE9ges
+    intelligencia:\r\nCSIZMADIA M\xC1RK\r\n\r\n\r\nfelhaszn\xE1l\xF3i fel\xFClet:\r\nBEV\xCDZ
+    L\xC1SZL\xD3\r\n\r\n\r\nfelhaszn\xE1l\xF3i \xE9lm\xE9ny:\r\nBEV\xCDZ L\xC1SZL\xD3\r\n\r\n\r\n\r\n\r\nK\xE9sz\xFClt
+    a PANNON EGYETEM\r\nPENDROID 2023/24-es versenyki\xEDr\xE1s\xE1nak\r\n2. fordul\xF3j\xE1ra\r\n\n\n\n\n\n\n\n\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0558607dd00d2894bad3264fb751ec03, type: 2}
   m_sharedMaterial: {fileID: 471849723291169303, guid: 0558607dd00d2894bad3264fb751ec03, type: 2}
